@@ -1,2 +1,2 @@
 # Next-Blog
-A Next eaxm blog
+The  Blog Powered By Nextjs.
