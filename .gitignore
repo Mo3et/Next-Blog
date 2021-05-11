@@ -1,18 +1,18 @@
 node_modules
-build
-/bin
-/dist
-.DS_Store
-.idea
-*.tmp
-yarn-debug.log*
-yarn-error.log*
-*.pid
-storybook-static
-.scrapy
-__pycache__
-*.pyc
-.vscode
-/chrome.*
-/public
 .next
+# build
+# /bin
+# /dist
+# .DS_Store
+# .idea
+# *.tmp
+# yarn-debug.log*
+# yarn-error.log*
+# *.pid
+# storybook-static
+# .scrapy
+# __pycache__
+# *.pyc
+# .vscode
+# /chrome.*
+# /public

@@ -1,0 +1,9 @@
+site: blogs
+# public: public
+public: .next/server
+force_ssl: true
+# rewrites:
+#   - source: /api/*
+#     destination: https://api.westack.live/$1
+# domains:
+#   china: weekly.westack.live
