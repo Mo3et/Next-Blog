@@ -5,6 +5,17 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="search"
+          type="application/opensearchdescription+xml"
+          target="_blank"
+          class="external-link"
+          href="/opensearch.xml"
+          // href="http://who.am.i/search.xml"
+          href="."
+          title="ShortName"
+        />
+        {/* <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" /> */}
       </Head>
 
       <main>
@@ -21,6 +32,11 @@ export default function Home() {
         </p>
 
         <div className="grid">
+          <a href="./as" className="card">
+            <h3>Hello &rarr;</h3>
+            <p>Text</p>
+          </a>
+
           <a href="https://nextjs.cn/docs" className="card">
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
