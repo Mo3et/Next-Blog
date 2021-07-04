@@ -1,4 +1,5 @@
-site: blogs
+# site: blogs
+site: mo3et
 # public: public
 # production_branch: live
 public: out

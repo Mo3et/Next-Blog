@@ -23,6 +23,10 @@ export default function Home() {
           Welcome to <a href="https://nextjs.cn">Next.js!</a>
         </h1>
         <h1 className="title">
+          Welcome to <a href="/posts/first-posts">First Posts</a>
+        </h1>
+
+        <h1 className="title">
           And Hello{" "}
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
         </h1>
