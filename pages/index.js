@@ -26,11 +26,12 @@ export default function Home() {
           Welcome to <a href="/posts/first-posts">First Posts</a>
         </h3> */}
         <h3 className="title">
-          <a href="https://www.apollographql.com/docs/apollo-server">
-            Apollo
-          </a>
+          <a href="https://www.apollographql.com/docs/apollo-server">Apollo</a>
+          <br />
           <a href="https://vue3js.cn/docs/zh/guide/introduction.html">Vue</a>
+          <br />
           And
+          <br />
           <a href="https://vitejs.dev/guide/">Vite</a>
         </h3>
         <h3 className="title">
