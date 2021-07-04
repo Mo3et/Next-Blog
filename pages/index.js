@@ -36,7 +36,47 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="./as" className="card">
+          {/* <a href="/as" className="card">
+            <h3>Hello &rarr;</h3>
+            <p>Text</p>
+          </a> */}
+          <a
+            href="http://www.yinwang.org/blog-cn/2018/11/23/grammar"
+            className="card"
+          >
+            <h3>解谜英语语法 &rarr;</h3>
+            <p>description</p>
+          </a>
+          <a
+            href="http://www.yinwang.org/blog-cn/2020/03/06/english-learning-tips"
+            className="card"
+          >
+            <h3>英语学习的一些经验 &rarr;</h3>
+            {/* <p>description</p> */}
+          </a>
+          <a
+            href="https://www.yinwang.org/blog-cn/2017/07/06/master-pl"
+            className="card"
+          >
+            <h3>如何掌握所有的程序语言 &rarr;</h3>
+            {/* <p>description</p> */}
+          </a>
+          <a
+            href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy"
+            className="card"
+          >
+            <h3>编程的智慧 &rarr;</h3>
+            {/* <p>description</p> */}
+          </a>
+          <a href="/as" className="card">
+            <h3>Hello &rarr;</h3>
+            <p>description</p>
+          </a>
+          {/* <a href="" className="card">
+            <h3>Test &rarr;</h3>
+            <p>description</p>
+          </a> */}
+          {/* <a href="./as" className="card">
             <h3>Hello &rarr;</h3>
             <p>Text</p>
           </a>
@@ -67,7 +107,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
