@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Monet's blog</title>
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="search"
@@ -19,17 +19,17 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
+        <h2 className="title">
           Welcome to <a href="https://nextjs.cn">Next.js!</a>
-        </h1>
-        <h1 className="title">
+        </h2>
+        <h2 className="title">
           Welcome to <a href="/posts/first-posts">First Posts</a>
-        </h1>
+        </h2>
 
-        <h1 className="title">
+        <h2 className="title">
           And Hello{" "}
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
-        </h1>
+        </h2>
 
         {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -44,33 +44,33 @@ export default function Home() {
             href="http://www.yinwang.org/blog-cn/2018/11/23/grammar"
             className="card"
           >
-            <h3>解谜英语语法 &rarr;</h3>
+            <h4>解谜英语语法 &rarr;</h4>
             <p>语法入门宝典</p>
           </a>
           <a
             href="http://www.yinwang.org/blog-cn/2020/03/06/english-learning-tips"
             className="card"
           >
-            <h3>英语学习的一些经验 &rarr;</h3>
+            <h4>英语学习的一些经验 &rarr;</h4>
             <p>English Tips</p>
           </a>
           <a
             href="https://www.yinwang.org/blog-cn/2017/07/06/master-pl"
             className="card"
           >
-            <h3>如何掌握所有的程序语言 &rarr;</h3>
+            <h4>如何掌握所有的程序语言 &rarr;</h4>
             {/* <p>description</p> */}
           </a>
           <a
             href="http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy"
             className="card"
           >
-            <h3>编程的智慧 &rarr;</h3>
+            <h4>编程的智慧 &rarr;</h4>
             {/* <p>description</p> */}
           </a>
-          <a href="/as.html" className="card">
-            <h3>Hello &rarr;</h3>
-            <p>description</p>
+          <a href="/posts/Docs" className="card">
+            <h4>Hello &rarr;</h4>
+            {/* <p>description</p> */}
           </a>
           {/* <a href="" className="card">
             <h3>Test &rarr;</h3>
