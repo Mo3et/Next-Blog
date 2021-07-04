@@ -19,17 +19,17 @@ export default function Home() {
       </Head>
 
       <main>
-        <h2 className="title">
+        <h3 className="title">
           Welcome to <a href="https://nextjs.cn">Next.js!</a>
-        </h2>
-        <h2 className="title">
+        </h3>
+        {/* <h3 className="title">
           Welcome to <a href="/posts/first-posts">First Posts</a>
-        </h2>
+        </h3> */}
 
-        <h2 className="title">
+        <h3 className="title">
           And Hello{" "}
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
-        </h2>
+        </h3>
 
         {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -40,6 +40,13 @@ export default function Home() {
             <h3>Hello &rarr;</h3>
             <p>Text</p>
           </a> */}
+          <a
+            href="https://github.com/Mo3et/Westack-Weekly-Docs/issues/8"
+            className="card"
+          >
+            <h4>Golang Learning &rarr;</h4>
+            <p>Github Golang Summary Issues</p>
+          </a>
           <a
             href="http://www.yinwang.org/blog-cn/2018/11/23/grammar"
             className="card"
@@ -55,6 +62,12 @@ export default function Home() {
             <p>English Tips</p>
           </a>
           <a
+            href="https://a-programmers-guide-to-english.harryyu.me/"
+            className="card"
+          >
+            <h4>为程序员写的英语指南 &rarr;</h4>
+          </a>
+          <a
             href="https://www.yinwang.org/blog-cn/2017/07/06/master-pl"
             className="card"
           >
@@ -68,10 +81,7 @@ export default function Home() {
             <h4>编程的智慧 &rarr;</h4>
             {/* <p>description</p> */}
           </a>
-          <a href="/posts/Docs" className="card">
-            <h4>Hello &rarr;</h4>
-            {/* <p>description</p> */}
-          </a>
+
           {/* <a href="" className="card">
             <h3>Test &rarr;</h3>
             <p>description</p>
