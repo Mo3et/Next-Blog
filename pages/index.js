@@ -20,11 +20,14 @@ export default function Home() {
 
       <main>
         <h3 className="title">
-          Welcome to <a href="https://nextjs.cn">Next.js!</a>
+          Welcome to <a href="https://nextjs.cn">Next.js!</a>And
+          <a href="https://nextjs.org/docs/basic-features/pages">Next Pages</a>
         </h3>
+        <br/>
         {/* <h3 className="title">
           Welcome to <a href="/posts/first-posts">First Posts</a>
         </h3> */}
+        <h4>--------</h4>
         <h3 className="title">
           <a href="https://www.apollographql.com/docs/apollo-server">Apollo</a>
           <br />
@@ -34,6 +37,7 @@ export default function Home() {
           <br />
           <a href="https://vitejs.dev/guide/">Vite</a>
         </h3>
+        <h4>--------</h4>
         <h3 className="title">
           And Hello{" "}
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
@@ -54,6 +58,10 @@ export default function Home() {
           >
             <h4>Golang Learning &rarr;</h4>
             <p>Github Golang Summary Issues</p>
+          </a>
+          <a href="https://tour.go-zh.org/list" className="card">
+            <h4>Golang Tour &rarr;</h4>
+            <p>Go语言之旅</p>
           </a>
           <a
             href="http://www.yinwang.org/blog-cn/2018/11/23/grammar"
