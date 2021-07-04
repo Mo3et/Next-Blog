@@ -31,9 +31,9 @@ export default function Home() {
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
         </h1>
 
-        <p className="description">
+        {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
-        </p>
+        </p> */}
 
         <div className="grid">
           {/* <a href="/as" className="card">
@@ -45,14 +45,14 @@ export default function Home() {
             className="card"
           >
             <h3>解谜英语语法 &rarr;</h3>
-            <p>description</p>
+            <p>语法入门宝典</p>
           </a>
           <a
             href="http://www.yinwang.org/blog-cn/2020/03/06/english-learning-tips"
             className="card"
           >
             <h3>英语学习的一些经验 &rarr;</h3>
-            {/* <p>description</p> */}
+            <p>English Tips</p>
           </a>
           <a
             href="https://www.yinwang.org/blog-cn/2017/07/06/master-pl"
@@ -68,7 +68,7 @@ export default function Home() {
             <h3>编程的智慧 &rarr;</h3>
             {/* <p>description</p> */}
           </a>
-          <a href="/as" className="card">
+          <a href="/as.html" className="card">
             <h3>Hello &rarr;</h3>
             <p>description</p>
           </a>
