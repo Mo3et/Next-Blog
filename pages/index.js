@@ -45,7 +45,7 @@ export default function Home() {
         <p>=========================================</p>
         <div>
           <h3 className="title">
-            <a href="/posts/LearnSource">Learn Source</a>
+            <a href="/posts/learn-source">Learn Source</a>
           </h3>
         </div>
         {/* <p className="description">
@@ -53,11 +53,7 @@ export default function Home() {
         </p> */}
 
         <div className="grid">
-          {/* <a href="/as" className="card">
-            <h3>Hello &rarr;</h3>
-            <p>Text</p>
-          </a> */}
-          <a href="/posts/LearnSource" className="card">
+          <a href="/posts/learn-source" className="card">
             <h4>Learn Source &rarr;</h4>
             <p>Learn Source</p>
           </a>
