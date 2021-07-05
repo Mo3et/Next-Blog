@@ -1,25 +1,13 @@
-import Head from "next/head";
-export default function Home() {
+export default function LearnSource() {
   return (
     <div className="container">
       <Head>
-        <title>Monet's blog</title>
+        <title>Source List</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="search"
-          type="application/opensearchdescription+xml"
-          target="_blank"
-          class="external-link"
-          href="/opensearch.xml"
-          // href="http://who.am.i/search.xml"
-          href="."
-          title="ShortName"
-        />
-        {/* <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="ShortName" /> */}
       </Head>
 
       <main>
-        <h3 className="title">
+        <h3>
           Welcome to <a href="https://nextjs.cn">Next.js!</a>And
           <a href="https://nextjs.org/docs/basic-features/pages">Next Pages</a>
         </h3>
@@ -27,8 +15,8 @@ export default function Home() {
         {/* <h3 className="title">
           Welcome to <a href="/posts/first-posts">First Posts</a>
         </h3> */}
-        <h4>--------</h4>
-        <h3 className="title">
+        <h4>------------</h4>
+        <h3>
           <a href="https://www.apollographql.com/docs/apollo-server">Apollo</a>
           <br />
           <a href="https://vue3js.cn/docs/zh/guide/introduction.html">Vue</a>
@@ -37,17 +25,12 @@ export default function Home() {
           <br />
           <a href="https://vitejs.dev/guide/">Vite</a>
         </h3>
-        <h4>--------</h4>
-        <h3 className="title">
+        <h4>--------------</h4>
+        {/* <h3>
           And Hello{" "}
           <a href="https://docs.github.com/cn/actions">Github Actions!</a>
-        </h3>
-        <p>=========================================</p>
-        <div>
-          <h3 className="title">
-            <a href="/posts/LearnSource">Learn Source</a>
-          </h3>
-        </div>
+        </h3> */}
+
         {/* <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p> */}
@@ -57,10 +40,6 @@ export default function Home() {
             <h3>Hello &rarr;</h3>
             <p>Text</p>
           </a> */}
-          <a href="/posts/LearnSource" className="card">
-            <h4>Learn Source &rarr;</h4>
-            <p>Learn Source</p>
-          </a>
           <a
             href="https://github.com/Mo3et/Westack-Weekly-Docs/issues/8"
             className="card"
