@@ -194,7 +194,7 @@ export default function LearnSource() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 3rem;
         }
 
         .title,
@@ -246,6 +246,10 @@ export default function LearnSource() {
         }
 
         .card h3 {
+          margin: 0 0 1rem 0;
+          font-size: 1.5rem;
+        }
+        .card h4 {
           margin: 0 0 1rem 0;
           font-size: 1.5rem;
         }
