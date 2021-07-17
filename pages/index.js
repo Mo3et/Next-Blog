@@ -210,7 +210,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 24px;
         }
 
         .title,
@@ -301,3 +301,10 @@ export default function Home() {
     </div>
   );
 }
+
+
+  //  .title {
+  //         margin: 0;
+  //         line-height: 1.15;
+  //         font-size: 4rem;
+  //       }
