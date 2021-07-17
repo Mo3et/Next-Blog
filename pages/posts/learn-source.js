@@ -8,7 +8,7 @@ export default function LearnSource() {
       </Head>
 
       <main>
-        <h3>
+        <h3 className="title">
           Welcome to <a href="https://nextjs.cn">Next.js!</a>And
           <a href="https://nextjs.org/docs/basic-features/pages">Next Pages</a>
         </h3>
@@ -17,7 +17,7 @@ export default function LearnSource() {
           Welcome to <a href="/posts/first-posts">First Posts</a>
         </h3> */}
         <h4>------------</h4>
-        <h3>
+        <h3 className="title">
           <a href="https://www.apollographql.com/docs/apollo-server">Apollo</a>
           <br />
           <a href="https://vue3js.cn/docs/zh/guide/introduction.html">Vue</a>
