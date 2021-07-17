@@ -1,1 +1,1 @@
-export $(git add -A && git commit -m update && gp)
+echo $(git add -A && git commit -m update && gp)
