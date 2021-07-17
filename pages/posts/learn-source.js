@@ -9,7 +9,7 @@ export default function LearnSource() {
 
       <main>
         <h3 className="title">
-          Welcome to <a href="https://nextjs.cn">Next.js!</a>And
+          Welcome to <a href="https://nextjs.cn">Next.js!</a>And <br/>
           <a href="https://nextjs.org/docs/basic-features/pages">Next Pages</a>
         </h3>
         <br />
@@ -84,6 +84,13 @@ export default function LearnSource() {
             className="card"
           >
             <h4>编程的智慧 &rarr;</h4>
+            {/* <p>description</p> */}
+          </a>
+          <a
+            href="https://zh.wikipedia.org/wiki/A%E9%9D%A2%E8%88%87B%E9%9D%A2"
+            className="card"
+          >
+            <h4>A面与B面 &rarr;</h4>
             {/* <p>description</p> */}
           </a>
 
