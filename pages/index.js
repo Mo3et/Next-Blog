@@ -64,6 +64,10 @@ export default function Home() {
             <h4>Golang Learning &rarr;</h4>
             <p>Github Golang Summary Issues</p>
           </a>
+          <a href="https://missing-semester-cn.github.io/" className="card">
+            <h4>Missing Semester &rarr;</h4>
+            <p>计算机中缺失的一课</p>
+          </a>
           <a href="https://tour.go-zh.org/list" className="card">
             <h4>Golang Tour &rarr;</h4>
             <p>Go语言之旅</p>
@@ -102,7 +106,6 @@ export default function Home() {
             <h4>编程的智慧 &rarr;</h4>
             {/* <p>description</p> */}
           </a>
-
           {/* <a href="" className="card">
             <h3>Test &rarr;</h3>
             <p>description</p>
